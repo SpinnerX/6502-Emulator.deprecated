@@ -32,9 +32,9 @@ set(PROJECT_INCLUDE_DIR CPU_Emulator)
 # endif()
 
 
-if(MSVC)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wno-deprecated-non-prototype")
-endif()
+# if(MSVC)
+#     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wno-deprecated-non-prototype")
+# endif()
 
 
 include_directories(
@@ -50,6 +50,7 @@ include_directories(
 # Better way instead of GLOBBING 
 set(
     all_src
+    ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/Utils.cpp
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/Memory.cpp
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/core/CPU.cpp
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/main.cpp
