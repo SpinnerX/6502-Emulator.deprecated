@@ -27,9 +27,9 @@ set(PROJECT_INCLUDE_DIR CPU_Emulator)
 # This is applying to all targets
 # These are package maintainers that will let you know what is happening
 # Ref Link for these compiler flags: https://stackoverflow.com/questions/14231292/cmake-and-compiler-warnings
-if(CMAKE_COMPILER_IS_GNUCC)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -wnoi-deprecated-non-prototype")
-endif()
+# if(CMAKE_COMPILER_IS_GNUCC)
+#     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -wnoi-deprecated-non-prototype")
+# endif()
 
 
 if(MSVC)
