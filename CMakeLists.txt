@@ -50,7 +50,8 @@ include_directories(
 # Better way instead of GLOBBING 
 set(
     all_src
-    ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/Utils.cpp\
+    ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/Utils.cpp
+    ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/Memory.cpp
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/core/CPU.cpp
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/main.cpp
 )
