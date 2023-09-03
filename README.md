@@ -3,6 +3,10 @@
 ## Overview
 Implementing an emulation for the 6502 CPU. Emulating how CPU is designed, and implemented. Demonstrating how the 6502 cpu works internally, by actually emulating the 6502 CPU process.
 
+
+## Specs
+- Since the 6502 is little endian this means that the 6502 would store the least significant bytes first. 
+
 ## References Links
 
 Address Mode Reference Link: `http://www.emulator101.com/reference/6502-reference.html`\
