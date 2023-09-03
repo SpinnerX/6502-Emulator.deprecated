@@ -67,7 +67,7 @@ add_executable(
 # include() is used to include the cmake configurations to configure the libraries in their seperate cmake, and to put those configurations
 # into this cmake.
 # Hence, these are the modules needed!
-include(${PROJECT_SOURCE_DIR}/cmake/glfw.cmake)
-include(${PROJECT_SOURCE_DIR}/cmake/opencv.cmake)
-# include(${PROJECT_SOURCE_DIR}/cmake/assimp.cmake)
-include(${PROJECT_SOURCE_DIR}/cmake/ffmpeg.cmake)
+# include(${PROJECT_SOURCE_DIR}/cmake/glfw.cmake)
+# include(${PROJECT_SOURCE_DIR}/cmake/opencv.cmake)
+# # include(${PROJECT_SOURCE_DIR}/cmake/assimp.cmake)
+# include(${PROJECT_SOURCE_DIR}/cmake/ffmpeg.cmake)
