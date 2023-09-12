@@ -3,6 +3,7 @@
 #include <cstring>
 #include <string>
 
+// 1 byte 8 bits
 using Byte = unsigned char;
 
 namespace Address_Modes{
@@ -10,7 +11,7 @@ namespace Address_Modes{
     Byte IMMEDIATE;
     Byte IMPLIED;
     
-    // Non-Indexed memory ops
+    
     Byte RELATIVE;
     Byte ABSOLUTE;
     Byte ZERO_PAGE;
