@@ -5,4 +5,6 @@
 int main(){
     printUtils();
     printCpu();
+
+	return 0;
 }
