@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5.0)
 
-set(PROJECT_NAME CPU-Emulator)
+set(PROJECT_NAME 6502-Emulator)
 project(${PROJECT_NAME} VERSION 0.1.0 LANGUAGES C CXX)
 
 set(CXX_STANDARD 20)
@@ -12,7 +12,7 @@ set(CXX_STANDARD 20)
 
 # This is so we can simply know where the other directories are located in the project
 # Such as if we needed to find common we can do ${INCLUDE_DIR}/common instead of manually typing 3DRenderRotator/common
-set(PROJECT_INCLUDE_DIR CPU_Emulator)
+set(PROJECT_INCLUDE_DIR 6502_Emulator)
 
 
 # Apply to single targets
