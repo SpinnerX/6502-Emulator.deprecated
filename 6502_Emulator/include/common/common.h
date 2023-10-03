@@ -6,11 +6,10 @@
 // 1 byte 8 bits
 using Byte = unsigned char;
 
-namespace Address_Modes{
+namespace{
     Byte ACCUMULATOR;
     Byte IMMEDIATE;
     Byte IMPLIED;
-    
     
     Byte RELATIVE;
     Byte ABSOLUTE;
@@ -20,5 +19,4 @@ namespace Address_Modes{
     Byte ZERO_PAGE_INDEXED;
     Byte INDEXED_INDIRECT;
     Byte INDIRECT_INDEX;
-    
 };
