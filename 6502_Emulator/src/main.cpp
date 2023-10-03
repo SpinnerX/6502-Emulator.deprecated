@@ -1,10 +1,9 @@
-#include "common/Utils.h"
-#include "core/CPU.h"
 
+#include "common/Memory.h"
+using namespace std;
 
 int main(){
-    printUtils();
-    printCpu();
-
-	return 0;
+    Memory memory;
+    memory.initialize();
+    return 0;
 }
