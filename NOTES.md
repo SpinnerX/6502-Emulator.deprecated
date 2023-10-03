@@ -13,3 +13,10 @@ Notes of how the 6502 CPU works
 
 
 ## Memory - How 6502 handles memory, includes initialization, allocating, using memory
+
+
+
+## Resource Links
+https://people.cs.umass.edu/~verts/cmpsci201/spr_2004/Lecture_02_2004-01-30_The_6502_processor.pdf
+
+https://people.cs.umass.edu/~verts/cmpsci201/cmpsci201.html
