@@ -31,4 +31,6 @@ https://people.cs.umass.edu/~verts/cmpsci201/cmpsci201.html
 
 `https://www.masswerk.at/6502/6502_instruction_set.html` - this is the 6502 reference link. What this link has is at the bottom of the page. A link that redirects you to other source links to archived pdf's, datasheets, etc. Containing information about the 6502 cpu.
 
+`http://6502.org/documents/datasheets/` - Reference link to datasheets, and other information in related to micro-controllers. To better understand how cpu's work, by starting with understanding how the 6502 cpu operates.
+
 `http://archive.6502.org/datasheets/gte_microcircuits_data_book_jan_1984.pdf` - this is one of the archived PDF's from the link on the bottom page in the previous link shown above. This link redirects you to a PDF containing information about microprocessors, microcomputers, peripherals, and etc.
