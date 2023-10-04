@@ -34,4 +34,3 @@ https://people.cs.umass.edu/~verts/cmpsci201/cmpsci201.html
 `http://6502.org/documents/datasheets/` - Reference link to datasheets, and other information in related to micro-controllers. To better understand how cpu's work, by starting with understanding how the 6502 cpu operates.
 
 `http://archive.6502.org/datasheets/gte_microcircuits_data_book_jan_1984.pdf` - this is one of the archived PDF's from the link on the bottom page in the previous link shown above. This link redirects you to a PDF containing information about microprocessors, microcomputers, peripherals, and etc.
-
