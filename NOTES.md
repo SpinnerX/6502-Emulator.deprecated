@@ -35,3 +35,4 @@ https://people.cs.umass.edu/~verts/cmpsci201/cmpsci201.html
 
 `http://archive.6502.org/datasheets/gte_microcircuits_data_book_jan_1984.pdf` - this is one of the archived PDF's from the link on the bottom page in the previous link shown above. This link redirects you to a PDF containing information about microprocessors, microcomputers, peripherals, and etc.
 
+`https://www.princeton.edu/~mae412/HANDOUTS/Datasheets/6502.pdf` - Another reference PDF, to learn about 6502 from another perspective. This explains the same thing, but just another way of explaining and going through how the 6502 cpu works.
