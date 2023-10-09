@@ -1,7 +1,6 @@
 #pragma once
-#include "common/common.h"
 #include <string>
-
+#include <common/common.h>
 /**
  * 
  * Generic Instruction, that will handle how instructions are supposed to work.
@@ -23,8 +22,8 @@
 */
 
 struct Instruction{
-    Byte cyclesPerInstruction;              // Amount of cycles it takes for this instruction to run
+    Byte cyclesAmountInstruction;            // Amount of cycles it takes for this instruction to run
     Byte mode;                              // Instruction specific address mode
     Byte opCodes;                           // Instructions specific op code
-    std::string name;                       // name of the instruction
+    std::string instructionID;              // name of the instruction
 };
