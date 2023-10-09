@@ -3,7 +3,8 @@ cmake_minimum_required(VERSION 3.5.0)
 set(PROJECT_NAME 6502-Emulator)
 project(${PROJECT_NAME} VERSION 0.1.0 LANGUAGES C CXX)
 
-set(CXX_STANDARD 20)
+# set(CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 20)
 
 # This is how we are able to simply just include 
 # Ref Link: https://stackoverflow.com/questions/8304190/cmake-with-include-and-source-paths-basic-setup
@@ -52,6 +53,7 @@ set(
     all_src
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/Memory.cpp
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/Instruction.cpp
+    ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/core/6502-Emulator.cpp
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/main.cpp
 )
 
