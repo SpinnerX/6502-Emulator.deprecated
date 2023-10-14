@@ -11,16 +11,6 @@
  * 
 */
 
-
-// Different states that the CPU will be in.
-enum State{
-    ON, // starting up (booting up the CPU)
-    RESET, // resetting the CPU
-    RUNNING, // CPU still running
-    QUIT, // If the CPU has been quit
-    OFF
-};
-
 /**
  * 
  * External @note
@@ -135,4 +125,13 @@ enum AddressModes{
     ZPG,                // zeropage
     ZPG_X,              // Zeropage, X-indexed
     ZPG_Y,              // Zeropage, Y-indexed
+};
+
+// Different states that the CPU will be in.
+enum State{
+    ON, // starting up (booting up the CPU)
+    RESET, // resetting the CPU
+    RUNNING, // CPU still running
+    QUIT, // If the CPU has been quit
+    OFF
 };
