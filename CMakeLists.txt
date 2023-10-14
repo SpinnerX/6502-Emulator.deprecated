@@ -13,7 +13,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 # This is so we can simply know where the other directories are located in the project
 # Such as if we needed to find common we can do ${INCLUDE_DIR}/common instead of manually typing 3DRenderRotator/common
-set(PROJECT_INCLUDE_DIR 6502_Emulator)
+set(PROJECT_INCLUDE_DIR 6502_emulator)
 
 
 # Apply to single targets
@@ -51,8 +51,11 @@ include_directories(
 # Better way instead of GLOBBING 
 set(
     all_src
-    ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/Memory.cpp
+    ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/peripherals/RomMemory.cpp
+    ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/peripherals/RamMemory.cpp
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/Instruction.cpp
+    ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/CPUState.cpp
+    ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/common/Memory.cpp
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/core/6502-Emulator.cpp
     ${PROJECT_SOURCE_DIR}/${PROJECT_INCLUDE_DIR}/src/main.cpp
 )
