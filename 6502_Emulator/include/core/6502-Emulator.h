@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <cstring>
 #include <algorithm>
-#include <common/Instruction.h>
+#include <common/State.h>
 
 /**
  * @brief 
@@ -12,7 +12,7 @@
  * @param state 
  */
 
-void startup(bool state);
+void bootup6502CPU(bool state);
 
 
 /**
@@ -21,7 +21,7 @@ void startup(bool state);
  * 
  * void ExecuteEmulation(uint32_t)
  * - Starts the state of the emulation, where we input the amount of cycles it takes for a specific instruction to run.
- * 
+ * - We switch the state to ON
  * @param cycles 
  */
-void ExecuteEmulator(uint32_t cycles, Instruction*);
+void ExecuteEmulator(uint32_t cycles, State state);
