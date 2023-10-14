@@ -11,6 +11,16 @@
  * 
 */
 
+
+// Different states that the CPU will be in.
+enum State{
+    ON, // starting up (booting up the CPU)
+    RESET, // resetting the CPU
+    RUNNING, // CPU still running
+    QUIT, // If the CPU has been quit
+    OFF
+};
+
 /**
  * 
  * External @note
